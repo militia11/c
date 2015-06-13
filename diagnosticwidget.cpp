@@ -993,8 +993,11 @@ void DiagnosticWidget::runDriver()
   QVector<packetType> tmp{packetType("r3", 100)};
   comIO->enqueueOutgoing(tmp);
 
-  QVector<packetType> tmpx{packetType("p", 100)};
+
+  if(ui->piezoRadioButton->isChecked() == true){
+  QVector<packetType> tmpx{packetType("p", 25)};
   comIO->enqueueOutgoing(tmpx);
+  }
 
   packet = "" ;
 
