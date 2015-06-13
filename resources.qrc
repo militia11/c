@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/tools_diagnostic.png</file>
+        <file>icons/close_icon.png</file>
+        <file>icons/database_icon.png</file>
+        <file>icons/settings_icon.png</file>
+        <file>icons/hardware_photo.png</file>
+        <file>icons/search_button.png</file>
+        <file>icons/result_show.png</file>
+        <file>icons/database_add.png</file>
+        <file>icons/database_edit.png</file>
+        <file>icons/database_remove.png</file>
+        <file>icons/result_edit.png</file>
+        <file>icons/result_remove.png</file>
+        <file>icons/program.png</file>
+        <file>icons/diagn_report_logo.png</file>
+        <file>icons/icon_23.png</file>
+    </qresource>
+</RCC>
