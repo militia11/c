@@ -988,7 +988,7 @@ void DiagnosticWidget::runDriver()
   ui -> infoLabel -> setVisible(true) ;
   ui -> progressBar -> setRange(0, 0) ;
 
-  r3WorkaroundSendAgain = true;
+  r3WorkaroundSendAgain = true;// m
   r3WorkaroundTryNum = 0;
   QVector<packetType> tmp{packetType("r3", 100)};
   comIO->enqueueOutgoing(tmp);
